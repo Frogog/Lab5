@@ -2,10 +2,10 @@ import streamlit as st
 import pandas as pd
 from names import ports_names
 
-df = pd.read_csv("../Lab4/data.csv", encoding="utf-8")
+df = pd.read_csv("../Lab5/data.csv", encoding="utf-8")
 
 
-st.image("12.jpg")
+st.image("titanic_image.jpg")
 st.title("Вариант №2: Данные пассажиров титаника")
 st.write("Для просмотра данных о выживших и "
          "умерших пассажирах выберите соответствующий пункт посадки")
